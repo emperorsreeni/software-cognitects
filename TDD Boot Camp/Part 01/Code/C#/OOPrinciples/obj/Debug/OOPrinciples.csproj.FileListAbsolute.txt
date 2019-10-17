@@ -1,0 +1,7 @@
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\obj\Debug\OOPrinciples.csprojAssemblyReference.cache
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\obj\Debug\OOPrinciples.csproj.CoreCompileInputs.cache
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\bin\Debug\OOPrinciples.exe.config
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\bin\Debug\OOPrinciples.exe
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\bin\Debug\OOPrinciples.pdb
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\obj\Debug\OOPrinciples.exe
+D:\GitHub\TDD Boot Camp\Part 01\Code\C#\OOPrinciples\obj\Debug\OOPrinciples.pdb
