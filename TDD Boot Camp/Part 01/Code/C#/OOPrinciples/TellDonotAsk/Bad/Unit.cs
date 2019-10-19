@@ -7,9 +7,9 @@ namespace TellDoNotAsk.Bad
     public class Unit
     {
         public double Value { get; set; }
-        public Unit(double _value)
+        public Unit(double value)
         {
-            Value = _value;
+            Value = value;
         }
     }
 }

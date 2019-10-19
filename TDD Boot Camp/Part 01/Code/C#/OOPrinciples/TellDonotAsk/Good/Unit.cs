@@ -6,21 +6,21 @@ namespace TellDoNotAsk.Good
 {
     public class Unit
     {
-        private double Value { get; set; }
-        private UnitType UnitType { get; set; }
-        public Unit(double _value, UnitType _unitType)
+        private double _value { get; set; }
+        private UnitType _unitType { get; set; }
+        public Unit(double value, UnitType unitType)
         {
-            Value = _value;
-            UnitType =  _unitType;
+            _value = value;
+            _unitType =  unitType;
         }
 
-        public Unit ConvertTo(UnitType _unitType)
+        public Unit ConvertTo(UnitType unitType)
         {
             //check the source unit type
             //convert to destination unit type
 
             //dummy return
-            return new Unit(10, _unitType);
+            return new Unit(10, unitType);
         }
     }
 }

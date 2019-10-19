@@ -8,10 +8,10 @@ namespace Abstraction
     {
         public Size Size { get; set; }
         public Point Point { get; set; }
-        public Reactangle(Point _point, Size _size)
+        public Reactangle(Point point, Size size)
         {
-            Point = _point;
-            Size = _size;
+            Point = point;
+            Size = size;
         }
     }
 }

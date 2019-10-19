@@ -6,19 +6,19 @@ namespace Polymorphism
 {
     public class Car : Exhaustable
     {
-        private Engine Engine { get; set; }
-        public Car(Engine _engine)
+        private Engine _engine { get; set; }
+        public Car(Engine engine)
         {
-            Engine = _engine;
+            _engine = engine;
         }
 
         public void StartEngine()
         {
-            Engine.Start();
+            _engine.Start();
         }
         public void ShutDownEngine()
         {
-            Engine.Stop();
+            _engine.Stop();
         }
 
         public void Exhaust()

@@ -6,12 +6,12 @@ namespace Encapsulation
 {
     public class Point
     {
-        private int X { get; set; }
-        private int Y { get; set; }
-        public void SetLocation(int _x, int _y)
+        public int X { get; set; }
+        public int Y { get; set; }
+        public void SetLocation(int x, int y)
         {
-            X = _x;
-            Y = _y;
+            X = x;
+            Y = y;
         }
     }
 }
