@@ -6,7 +6,7 @@ namespace Abstraction
 {
     public class Size
     {
-        public int width;
-        public int height;
+        public int Width { get; set; }
+        public int Height { get; set; }
     }
 }

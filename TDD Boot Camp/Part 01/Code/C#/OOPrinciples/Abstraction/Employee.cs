@@ -6,32 +6,16 @@ namespace Abstraction
 {
     public class Employee
     {
-        private String name;
-        private String id;
-        private double salary;
-        private String departmentName;
-        public Employee(String name, String id, double salary, String departmentName)
+        public String Name { get; set; }
+        public String Id { get; set; }
+        public double Salary { get; set; }
+        public String DepartmentName { get; set; }
+        public Employee(String _name, String _id, double _salary, String _departmentName)
         {
-            this.name = name;
-            this.id = id;
-            this.salary = salary;
-            this.departmentName = departmentName;
-        }
-        public String GetName()
-        {
-            return name;
-        }
-        public String GetId()
-        {
-            return id;
-        }
-        public Double GetSalary()
-        {
-            return salary;
-        }
-        public String GetDepartment()
-        {
-            return departmentName;
+            Name = _name;
+            Id = _id;
+            Salary = _salary;
+            DepartmentName = _departmentName;
         }
     }
 }

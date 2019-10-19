@@ -6,15 +6,15 @@ namespace Abstraction
 {
     public class Iniyan
     {
-        public String firstName;
-        public String lastName;
-        public DateTime dateOfBirth;
+        public String FirstName { get; set; }
+        public String LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         public Iniyan()
         {
-            this.firstName = "Iniyan";
-            this.lastName = "Sreenivasan";
-            this.dateOfBirth = new DateTime(2015, 11, 13);
+            FirstName = "Iniyan";
+            LastName = "Sreenivasan";
+            DateOfBirth = new DateTime(2015, 11, 13);
         }
 
         public int GetAge()
@@ -24,7 +24,7 @@ namespace Abstraction
 
         public int CalculateAge()
         {
-            double duration = (DateTime.Now - dateOfBirth).TotalSeconds;            
+            double duration = (DateTime.Now - DateOfBirth).TotalSeconds;            
             return (int)(duration / (60 * 60 * 24 * 365));
         }
     }

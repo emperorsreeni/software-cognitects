@@ -6,39 +6,9 @@ namespace Abstraction
 {
     public class Address
     {
+        public String Street { get; set; }
+        public String City { get; set; }
+        public String Zip { get; set; }
 
-        private String street;
-        private String city;
-        private String zip;
-
-        public String GetStreet()
-        {
-            return street;
-        }
-
-        public void SetStreet(String street)
-        {
-            this.street = street;
-        }
-
-        public String GetCity()
-        {
-            return city;
-        }
-
-        public void SetCity(String city)
-        {
-            this.city = city;
-        }
-
-        public String GetZip()
-        {
-            return zip;
-        }
-
-        public void SetZip(String zip)
-        {
-            this.zip = zip;
-        }
     }
 }

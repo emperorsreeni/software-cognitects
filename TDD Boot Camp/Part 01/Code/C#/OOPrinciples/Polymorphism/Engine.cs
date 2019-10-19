@@ -6,14 +6,14 @@ namespace Polymorphism
 {
     public abstract class Engine
     {
-        public bool isRunning;
+        public bool IsRunning { get; set; }
         public void Start()
         {
-            this.isRunning = true;
+            IsRunning = true;
         }
         public void Stop()
         {
-            this.isRunning = false;
+            IsRunning = false;
         }
     }
 }

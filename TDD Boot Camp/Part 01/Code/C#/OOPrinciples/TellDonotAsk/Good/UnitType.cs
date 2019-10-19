@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace telldonotask.Good
+namespace TellDoNotAsk.Good
 {
     public enum UnitType
     {

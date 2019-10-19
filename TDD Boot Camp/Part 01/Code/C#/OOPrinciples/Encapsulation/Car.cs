@@ -6,21 +6,20 @@ namespace Encapsulation
 {
     public class Car
     {
-        private Engine engine;
-        public Car(Engine engine)
+        private Engine Engine;
+        public Car(Engine _engine)
         {
-            this.engine = engine;
+            Engine = _engine;
         }
 
         public void StartEngine()
         {
-            engine.Start();
+            Engine.Start();
         }
-
 
         public void ShutDownEngine()
         {
-            engine.Start();
+            Engine.Start();
         }
     }
 }

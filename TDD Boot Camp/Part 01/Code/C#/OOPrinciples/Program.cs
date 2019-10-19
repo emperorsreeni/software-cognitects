@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using telldonotask.Good;
+using TellDoNotAsk.Good;
 
 
 namespace OOPrinciples
@@ -14,18 +14,15 @@ namespace OOPrinciples
     {
         public static void Main(string[] args)
         {
-            #region Abstraction
-
             Person person = new Person
             {
-                firstName = "Abc",
-                lastName = "Xyz",
-                dateOfBirth = new DateTime(1992, 11, 16)
+                FirstName = "Abc",
+                LastName = "Xyz",
+                DateOfBirth = new DateTime(1992, 11, 16)
             };
-            Console.WriteLine("Age is {0}", person.GetAge());
-            #endregion
+            Console.WriteLine("Age is {0}", person.GetAge());            
 
-            #region Polymorphism
+            
             //Static Polymorphism
             DieselEngine dieselEngine = new DieselEngine();
             dieselEngine.Start();
@@ -39,8 +36,6 @@ namespace OOPrinciples
 
             exhaustable = new PowerGenerator();
             exhaustable.Exhaust();
-
-            #endregion            
         }        
     }
 }

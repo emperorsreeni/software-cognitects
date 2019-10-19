@@ -2,23 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace telldonotask.Bad
+namespace TellDoNotAsk.Bad
 {
     public class Unit
     {
-        private double value;
-        public Unit(double value)
+        public double Value { get; set; }
+        public Unit(double _value)
         {
-            this.value = value;
-        }
-        public double GetValue()
-        {
-            return value;
-        }
-
-        public void GetValue(double value)
-        {
-            this.value = value;
+            Value = _value;
         }
     }
 }

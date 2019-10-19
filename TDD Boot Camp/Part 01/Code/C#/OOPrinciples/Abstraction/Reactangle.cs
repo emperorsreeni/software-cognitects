@@ -6,20 +6,12 @@ namespace Abstraction
 {
     public class Reactangle
     {
-        private Size size;
-        private Point point;
-        public Reactangle(Point point, Size size)
+        public Size Size { get; set; }
+        public Point Point { get; set; }
+        public Reactangle(Point _point, Size _size)
         {
-            this.point = point;
-            this.size = size;
-        }
-        public Point GetPoint()
-        {
-            return point;
-        }
-        public Size GetSize()
-        {
-            return size;
+            Point = _point;
+            Size = _size;
         }
     }
 }
